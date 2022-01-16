@@ -1,6 +1,6 @@
 ---
   - name: Install and build Dockerfile
-    hosts: clients
+    hosts: all
     
     tasks:
     - name: Include variables from config.yaml
